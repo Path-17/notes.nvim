@@ -10,6 +10,7 @@ EOF
 
 rm -rf .git.
 chmod +x notes.nvim.sh
+cd ..
 read -p "Enter the path to your .bashrc (or equivalent) file [default: ~/.bashrc]: " bashrc 
 bashrc_path=${bashrc:-~/.bashrc}
 read -p "Enter the note directory you want to use: [default: ./]: " notes
