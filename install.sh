@@ -22,5 +22,5 @@ template_path=${template:-$(pwd)/notes.nvim/template.md}
 echo "alias nvimn='$(pwd)/notes.nvim/notes.nvim.sh template_path=${template_path} notes_dir=${notes_dir}'" >> "$bashrc_path"
 source $bashrc_path
 echo -e "\e[32m################\e[0m"
-echo -e "\e[32m# Install done #\e[0m Run \"nvimn\" to use the \"plugin\". If it didn't work then fix it"
+echo -e "\e[32m# Install done #\e[0m Run \"source <bash_rc_path>\" to use it immediately. Run \"nvimn\" to use the \"plugin\". If it didn't work then fix it."
 echo -e "\e[32m################\e[0m"
