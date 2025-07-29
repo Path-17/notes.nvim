@@ -1,2 +1,5 @@
 # notes.nvim
 A dead simple daily note "extension" for nvim.
+
+# Installation
+Go to the place you want to keep all your daily notes and run the install.sh script.
