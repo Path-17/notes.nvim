@@ -36,4 +36,3 @@ fi
 
 # now open nvim on that file
 nvim $daily_path_str
-
